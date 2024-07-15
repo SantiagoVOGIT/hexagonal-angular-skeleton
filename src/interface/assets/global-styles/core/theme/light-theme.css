@@ -1,0 +1,9 @@
+/* light-theme */
+:root {
+  --theme-background: var(--color-white);
+  --theme-text: var(--color-gray-900);
+  --theme-text-muted: var(--color-gray-600);
+  --theme-border: var(--color-gray-300);
+  --theme-shadow: rgba(0, 0, 0, 0.1);
+}
++

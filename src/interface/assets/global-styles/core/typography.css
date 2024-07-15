@@ -1,0 +1,23 @@
+/* typography */
+:root {
+  --font-family-primary: 'Open Sans', sans-serif;
+  --font-family-secondary: 'Roboto', sans-serif;
+
+  --font-size-base: 16px;
+  --font-size-xs: 1rem;
+  --font-size-sm: 2rem;
+  --font-size-md: 3rem;
+  --font-size-lg: 4rem;
+  --font-size-xl: 5rem;
+  --font-size-xxl: 6rem;
+
+  --line-height-base: 1.5;
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-loose: 2;
+
+  --letter-spacing-base: normal;
+  --letter-spacing-none: 0em;
+  --letter-spacing-tight: -0.05em;
+  --letter-spacing-wide: 0.05em;
+}

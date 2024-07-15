@@ -1,0 +1,21 @@
+/*main*/
+@import "generic/reset.css";
+@import "generic/normalize.css";
+@import "generic/box-sizing.css";
+
+@import "core/base-config.css";
+@import "core/theme/base-theme.css";
+
+@import "core/typography.css";
+@import "core/spacing.css";
+@import "core/layout.css";
+
+@import "components/buttons.css";
+@import "components/cards.css";
+@import "components/forms.css";
+@import "components/modals.css";
+
+@import "responsive/dimension-adapters.css";
+
+@import "utilities/typography-utils.css";
+@import "utilities/spacing-utils.css";

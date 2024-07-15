@@ -1,0 +1,13 @@
+/* dimension-adapters */
+html, body {
+  font-size: var(--font-size-base);
+  color: var(--theme-text);
+  font-family: var(--font-family-primary);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  background-color: var(--theme-background)
+}
+
+a {
+  color: var(--color-link);
+}

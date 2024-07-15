@@ -1,0 +1,16 @@
+/* layout */
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+
+  --container-max-width-sm: 540px;
+  --container-max-width-md: 720px;
+  --container-max-width-lg: 960px;
+  --container-max-width-xl: 1140px;
+  --container-max-width-xxl: 1320px;
+}
+
