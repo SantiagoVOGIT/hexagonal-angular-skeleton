@@ -1,14 +1,14 @@
-export class LocalStorageClient {
+export class LocalStorageService {
 
-  private static instance: LocalStorageClient;
+  private static instance: LocalStorageService;
 
   private constructor() { }
 
-  public static getInstance(): LocalStorageClient {
-    if (!LocalStorageClient.instance) {
-      LocalStorageClient.instance = new LocalStorageClient();
+  public static getInstance(): LocalStorageService {
+    if (!LocalStorageService.instance) {
+      LocalStorageService.instance = new LocalStorageService();
     }
-    return LocalStorageClient.instance;
+    return LocalStorageService.instance;
   }
 
   public setItem<T>(key: string, value: T): void {
